@@ -1,0 +1,13 @@
+{% extends "blog/home.html" %}
+
+{% block content %}                            <!-- Got formatting to do. This is ugly, but its late..              -->
+{% for a in article %}
+	{% if a.slug in request.path %}
+	<div class="col-lg-8 col-lg-offset-3 col-md-1 col-md-offset-3">
+	<h2 class="post-title">
+        {{a.title}} </h2>
+		{{a.body}}
+		<p class="post-meta">Posted on {{a.created}}, 2014</p>
+	{% endif %}
+{% endfor %}	
+{% endblock %}
