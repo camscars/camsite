@@ -1,6 +1,5 @@
 # camsite
 django personal site
 
-Having issues getting the links in the top right of the blog to work (return to home, etc). Had to hardcode them to my IP. 
-Must've tried at least 20 different things. Probably am going to have to look at some
-souce code from another django website so see how they got it to work.
+This was my first project (had it on computer for a long time before putting on github). No longer working on it, only have it as a demonstration of how much I've learned since. Havd issues getting the links of the blog to work (return to home, etc). Had to hardcode them to my IP. 
+
